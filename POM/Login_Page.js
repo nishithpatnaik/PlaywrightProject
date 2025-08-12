@@ -23,7 +23,7 @@ export class Login_Page{
     clickRegister_Button = async () =>
     {
         await this.register_button.click()
-        await this.page.waitForURL("http://localhost:2221/login?redirect=/delivery-details")
+        await this.page.waitForURL("/\/delivery-details/")
     }
 
 }
